@@ -1,0 +1,88 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+there was less information to go through to check the differences.
+i could tell what was in the old version that worked, and use that as a correct base.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+i could see what i put in and removed - understand what worked and what didn't in 
+specific situations and what i might have missed in an earlier version, that was put
+in a later version.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+manually choosing commit - 
+pro - 
+	1. can do in logical sections/breaks
+con - 
+	1. can forget and do commit too large, or forget and lose the info altogether
+	2. can create too small/too large commits, but still better than auto save
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+saving multiple files in each commit helps to see what changes are interconnected across the system.
+single file commit is good for non-connected files seperately
+
+Git allows saving multiple files because coding can include large interconnected systems, while Google Docs files are usually less interconnected.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+you can see all the changes done to the system.
+you can also look for a specific change or a last version which you liked and see what changes were made between it and whichever previous version you want to check against.
+
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+i know i could go to different stages of the product pretty easily to try to recreate the bug, and can find which version created it.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+udacity's sunshine project in the android course, and maybe try out some open source projects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
