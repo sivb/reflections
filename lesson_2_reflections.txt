@@ -4,8 +4,15 @@ when i initialize a repository, a .git file is created, and metadata about selec
 no commits are created, because git doesn't create commits for you.
 
 
+
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 the staging area is different from the working directory because the files in it can be used in commit to repository, and it's different from the repository because the files in it haven't been committed yet. you can select which files will be committed, not all files in directory will have a snapshot..
 
 i think it offers clarity and a way to build logic connections or understand them in your mind before doing actual commit.
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+i can use the staging area to make sure i have one commit per logical change by verifying that the only files in the staging area are connected to a single logical commit. can use 'git diff  --staging' to see all changes which will be committed.
