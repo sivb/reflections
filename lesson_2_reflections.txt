@@ -29,3 +29,11 @@ this means that the project can be continued in the master without unneeded/unhe
 How do the diagrams help you visualize the branch structure?
 
 the diagrams help visualize the branch structure by seeing after which commit each branch started on the master and how many branches exist.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging the branches together takes the last commit which matches on both branches and adds or removes code as per the changes made in each, as long as there are no mismatch issues.
+
+in the graph (using git log --graph --oneline command) 
+the commits are represented in the one line diagram so that the branch off is shown, the continuing commits on the master continue, and then the commits on the merged branch continue until the 'merge' commit. this allows to see what branch was added to which main thread for a repository.
