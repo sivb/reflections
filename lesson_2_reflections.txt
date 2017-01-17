@@ -16,3 +16,11 @@ i think it offers clarity and a way to build logic connections or understand the
 How can you use the staging area to make sure you have one commit per logical change?
 
 i can use the staging area to make sure i have one commit per logical change by verifying that the only files in the staging area are connected to a single logical commit. can use 'git diff  --staging' to see all changes which will be committed.
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches are helpfull when working on something that shouldn't be in the master.
+example - experimental features, personal project changes.
+this means that the project can be continued in the master without unneeded/unhelpfull changes. 
