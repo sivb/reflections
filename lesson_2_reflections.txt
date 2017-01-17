@@ -24,3 +24,8 @@ What are some situations when branches would be helpful in keeping your history 
 branches are helpfull when working on something that shouldn't be in the master.
 example - experimental features, personal project changes.
 this means that the project can be continued in the master without unneeded/unhelpfull changes. 
+
+
+How do the diagrams help you visualize the branch structure?
+
+the diagrams help visualize the branch structure by seeing after which commit each branch started on the master and how many branches exist.
