@@ -37,3 +37,29 @@ merging the branches together takes the last commit which matches on both branch
 
 in the graph (using git log --graph --oneline command) 
 the commits are represented in the one line diagram so that the branch off is shown, the continuing commits on the master continue, and then the commits on the merged branch continue until the 'merge' commit. this allows to see what branch was added to which main thread for a repository.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros of automatic merging - where no obvious conflict in code, git adds and removes changes with no need for user to go over all files.
+also, when there is a conflict, git shows this and allows user to check it over manually.
+
+con of automatic merging - different functions or variables can be doing the same thing or behave in unexpected ways or two variables can have the same name in different places; but if there was no conflict from different merges, this will only be found out later when running/compiling the project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
